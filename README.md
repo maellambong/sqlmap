@@ -41,7 +41,7 @@ To get an overview of sqlmap capabilities, list of supported features and descri
 Links
 ----
 
-# sqlmate
+# sqlmate install
 <img src='https://i.imgur.com/iXwyVul.png' />
 There are some features that we think SQLMap should have. Like finding admin panel of the target, better hash cracking etc. If you think the same, SQLMate is for you.
 
