@@ -4,7 +4,8 @@ require 'functions.php';
 require 'var.php';
 echo $cln;
 system("clear");
-print ( "Copyright By Mr A");
+redhawk_banner();
+
 if (extension_loaded('curl') || extension_loaded('dom'))
   {
   }
@@ -97,7 +98,7 @@ scanlist:
     system("clear");
     echo $bold . $blue . "
       +---------------------------------------------------+
-      +                  INDONESIA CODER CORP             +
+      +                 Malay Family Hacker               +
       +---------------------------------------------------+
 
             $lblue Scanning Site : " . $fgreen . $ipsl . $ip . $blue . "
